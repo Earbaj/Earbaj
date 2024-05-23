@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Earbaj Md Saria</h1>
 <h3 align="center">A passionate Android developer from Bangladesh</h3>
 
-<img align="centre" alt="Coding" width="400" src="https://img.freepik.com/free-vector/young-programmer-working-laptop-computer-cartoon-character_24797-2123.jpg?w=740&t=st=1716442480~exp=1716443080~hmac=4a91185568b247d6f46657ae012d18603d1024e4432478ef7980950d0476784c" />
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=earbaj" alt="earbaj" /></a> </p>
+<img align="right" alt="Coding" width="300" src="https://img.freepik.com/free-vector/young-programmer-working-laptop-computer-cartoon-character_24797-2123.jpg?w=740&t=st=1716442480~exp=1716443080~hmac=4a91185568b247d6f46657ae012d18603d1024e4432478ef7980950d0476784c" />
 
 - 🔭 I’m currently working on [Image Filter](https://github.com/Earbaj/ImageFilterAndroidKt)
 
@@ -14,6 +12,9 @@
 - 📫 How to reach me **earbajsaria3@gmail.com**
 
 - ⚡ Fun fact **I am Lazy**
+
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=earbaj" alt="earbaj" /></a> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
