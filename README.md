@@ -1,148 +1,138 @@
-<h1 align="center">Hi 👋, I'm Earbaj Md Saria</h1>
-<h3 align="center">A Passionate Android Developer from Bangladesh</h3>
-
-<!-- Coding animation -->
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" height="300">
-</p>
-
----
-
 <div align="center">
-  <a href="https://github.com/earbaj"><img src="https://img.shields.io/github/followers/earbaj?label=Followers&style=social" alt="GitHub Followers"></a>
-  <a href="https://github.com/earbaj?tab=repositories"><img src="https://img.shields.io/github/stars/earbaj?label=Stars&style=social" alt="GitHub Stars"></a>
-  <img src="https://komarev.com/ghpvc/?username=earbaj&label=Profile%20views&color=0e75b6&style=flat" alt="earbaj Profile Views">
-</div>
+  <!-- Dynamic Typing SVG Header -->
+  <a href="https://github.com/earbaj">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=3DDC84&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Hi+%F0%9F%91%8B%2C+I'm+Earbaj+Md+Saria;Senior+Android+%26+Cross-Platform+Engineer;Building+Scalable+%26+High-Performance+Mobile+Apps" alt="Typing SVG" />
+  </a>
 
+  <!-- Original Reliable Coding GIF -->
+  <p align="center">
+    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="550" height="280" alt="Coding GIF" />
+  </p>
+
+  <!-- Modern Pill Badges -->
+  <p align="center">
+    <a href="https://github.com/earbaj?tab=followers"><img src="https://img.shields.io/github/followers/earbaj?label=Followers&logo=github&style=for-the-badge&color=181717" alt="Followers" /></a>
+    &nbsp;
+    <a href="https://github.com/earbaj?tab=repositories"><img src="https://img.shields.io/github/stars/earbaj?label=Stars&logo=github&style=for-the-badge&color=181717" alt="Stars" /></a>
+    &nbsp;
+    <img src="https://komarev.com/ghpvc/?username=earbaj&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  </p>
+</div>
 ---
 
 ### 👨‍💻 About Me
 
-<div align="center">
-  <table border="0" cellpadding="15">
-    <tr>
-      <td valign="top" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=earbaj&layout=compact&theme=radical&hide_border=true&langs_count=6" width="100%">
-      </td>
-      <td valign="top" width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=earbaj&theme=radical&hide_border=true" width="100%">
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=earbaj&show_icons=true&theme=radical&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=earbaj&layout=compact&theme=radical&hide_border=true&langs_count=6" height="150" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=earbaj&theme=radical&hide_border=true" height="150" alt="Streak Stats" />
+</p>
+
+<table width="100%">
+  <tr>
+    <td style="background-color: #1e1f22; border-bottom: 2px solid #2b2d30; padding: 10px 14px;">
+      <span style="color: #ed6a5e; font-size: 13px;">●</span>
+      <span style="color: #f5bf4f; font-size: 13px;">●</span>
+      <span style="color: #62c554; font-size: 13px;">●</span>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <span style="background-color: #2b2d30; padding: 5px 12px; border-radius: 6px 6px 0 0; color: #dfe1e5; font-family: monospace; font-size: 12px;">
+        <img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" height="11" />
+        <b>Earbaj.kt</b>
+      </span>
+      &nbsp;
+      <span style="color: #6f737a; font-family: monospace; font-size: 11px;">MainActivity.kt</span>
+      &nbsp;
+      <span style="color: #6f737a; font-family: monospace; font-size: 11px;">build.gradle.kts</span>
+    </td>
+  </tr>
+</table>
 
 ```kotlin
-object Earbaj {
-    val name = "Earbaj Md Saria"
-    val role = "Senior Android Developer"
-    val location = "Bangladesh 🇧🇩"
-    val expertise = listOf("Android", "Flutter", "Kotlin", "Swift", "C++", "TensorFlow")
-    val learning = listOf("Jetpack Compose", "SwiftUI", "KMP")
-    val philosophy = "Lazy by nature, Efficient by design"
-    
-    fun currentFocus() = Project(
-        name = "Image Filter Pro",
-        tech = "Android + Kotlin + ML Kit",
-        link = "https://github.com/Earbaj/ImageFilterAndroidKt"
+/**
+ * Senior Mobile Engineer
+ * Architecture: Clean Architecture + MVI | Reactive: Coroutines & Flow
+ */
+data object Earbaj : MobileDeveloper {
+    val name: String = "Earbaj Md Saria"
+    val role: String = "Senior Android / Cross-Platform Engineer"
+    val location: String = "Dhaka, Bangladesh 🇧🇩"
+    val philosophy: String = "Lazy by nature, Efficient by design"
+
+    val techStack: Set<String> = setOf(
+        "Android", "Jetpack Compose", "Kotlin", "Flutter",
+        "Android NDK", "C++", "TensorFlow Lite", "Swift"
     )
-    
-    fun reachMe() = "earbajsaria3@gmail.com"
+
+    val continuousLearning: List<String> = listOf("Kotlin Multiplatform (KMP)", "SwiftUI")
+
+    suspend fun getCurrentFocus(): StateFlow<Project> = flowOf(
+        Project(
+            name = "Image Filter Pro",
+            techStack = listOf("Android", "Kotlin", "ML Kit", "OpenCV"),
+            repository = "https://github.com/Earbaj/ImageFilterAndroidKt"
+        )
+    ).stateIn(CoroutineScope(Dispatchers.IO))
+
+    fun getInTouch(): ContactChannel = ContactChannel.Email("earbajsaria3@gmail.com")
 }
 ```
 ---
 
 ### 🌐 Connect With Me
 <p align="center">
-  <a href="https://linkedin.com/in/earbaj" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://stackoverflow.com/users/earbaj-saria3" target="_blank"><img src="https://img.shields.io/badge/Stack%20Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white"></a>
-  <a href="https://www.leetcode.com/earbaj" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"></a>
+  <a href="https://linkedin.com/in/earbaj" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="26"></a>
+  &nbsp;
+  <a href="https://stackoverflow.com/users/earbaj-saria3" target="_blank"><img src="https://img.shields.io/badge/Stack%20Overflow-Profile-F58025?style=flat-square&logo=stackoverflow&logoColor=white" height="26"></a>
+  &nbsp;
+  <a href="https://www.leetcode.com/earbaj" target="_blank"><img src="https://img.shields.io/badge/LeetCode-Problems-FFA116?style=flat-square&logo=leetcode&logoColor=white" height="26"></a>
+  &nbsp;
+  <a href="mailto:earbajsaria3@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20Touch-EA4335?style=flat-square&logo=gmail&logoColor=white" height="26"></a>
 </p>
 
 ---
 
 ### 🛠️ Tech Stack
 
-<p align="center">
-  
-  <!-- Mobile Development -->
-  <b>📱 Mobile Development</b><br>
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
-  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
-  <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" alt="iOS">
+<div align="center">
+  <!-- Mobile & Native -->
+  <h4>📱 Mobile & Cross-Platform</h4>
+  <img src="https://skillicons.dev/icons?i=android,kotlin,java,flutter,dart,swift,apple&perline=7" alt="Mobile Stack" />
   <br><br>
-  
-  <!-- Frontend Development -->
-  <b>💻 Frontend Development</b><br>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux">
+
+  <!-- Systems & AI/ML -->
+  <h4>🧠 Low-Level, Systems & AI/ML</h4>
+  <img src="https://skillicons.dev/icons?i=c,cpp,cmake,rust,tensorflow,pytorch,opencv&perline=7" alt="Systems & ML" />
   <br><br>
-  
-  <!-- Backend Development -->
-  <b>⚙️ Backend Development</b><br>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Nest.js-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="Nest.js">
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+
+  <!-- Frontend & Web -->
+  <h4>💻 Web & Frontend Ecosystem</h4>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,redux&perline=8" alt="Frontend Stack" />
   <br><br>
-  
-  <!-- AI & Machine Learning -->
-  <b>🧠 AI & Machine Learning</b><br>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/ML%20Kit-FFB300?style=for-the-badge&logo=google&logoColor=white" alt="ML Kit">
+
+  <!-- Backend & Database -->
+  <h4>⚙️ Backend & Persistence</h4>
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,python,django,firebase,mongodb,postgres,mysql&perline=9" alt="Backend & DB" />
   <br><br>
-  
-  <!-- System Languages -->
-  <b>⚙️ System Programming</b><br>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/NDK-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android NDK">
-  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake">
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
-  <br><br>
-  
-  <!-- Backend & Databases -->
-  <b>🗄️ Databases</b><br>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
-  <img src="https://img.shields.io/badge/Realm-39477F?style=for-the-badge&logo=realm&logoColor=white" alt="Realm">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <br><br>
-  
-  <!-- DevOps & Tools -->
-  <b>🔧 DevOps & Tools</b><br>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
-  <br><br>
-</p>
+
+  <!-- DevOps & Cloud Tools -->
+  <h4>🔧 DevOps, Cloud & CI/CD</h4>
+  <img src="https://skillicons.dev/icons?i=git,githubactions,docker,kubernetes,aws,linux,postman&perline=7" alt="DevOps Stack" />
+</div>
 
 ---
 
 ### 📊 GitHub Stats
-<p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=earbaj&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&custom_title=Contribution%20Graph%20(Last%2090%20Days)&height=300" width="90%"> </p><details open> <summary><b>📌 Active PRs & Contributions</b></summary>
-
+<div align="center">
+  <!-- 90-Day Contribution Graph -->
+  <a href="https://github.com/earbaj">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=earbaj&theme=react-dark&bg_color=0d1117&color=58a6ff&line=3ddc84&point=ffffff&hide_border=true&area=true&custom_title=Contribution%20Graph%20(Last%2090%20Days)&height=300" width="95%" alt="Activity Graph" />
+  </a>
+</div>
+<br>
+<details open>
+  <summary style="cursor: pointer;">
+    <b><img src="https://img.shields.io/badge/Open_Source-Active_PRs_%26_Packages-238636?style=flat-square&logo=github&logoColor=white" height="20" alt="Active PRs" /></b>
+  </summary>
 ---
 
 ### 🌍 Open Source Contributions
