@@ -4,10 +4,12 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=3DDC84&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Hi+%F0%9F%91%8B%2C+I'm+Earbaj+Md+Saria;Senior+Android+%26+Cross-Platform+Engineer;Building+Scalable+%26+High-Performance+Mobile+Apps" alt="Typing SVG" />
   </a>
 
+---
+
   <!-- Original Reliable Coding GIF -->
-  <p align="center">
-    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="550" height="280" alt="Coding GIF" />
-  </p>
+ <p align="center">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z2azk2MXF6MmlzMWN0ZW10NnppOHRlaW5lMnJpc3RldG0xM2hpbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif" width="550" alt="Cyber Coder GIF" />
+</p>
 
   <!-- Modern Pill Badges -->
   <p align="center">
@@ -121,46 +123,56 @@ data object Earbaj : MobileDeveloper {
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation" />
-</p>
-<br>
-<details open>
-  <summary style="cursor: pointer;">
-    <b><img src="https://img.shields.io/badge/Open_Source-Active_PRs_%26_Packages-238636?style=flat-square&logo=github&logoColor=white" height="20" alt="Active PRs" /></b>
-  </summary>
----
-
 ### 🌍 Open Source Contributions
 
-#### 📦 My Flutter Packages
-[![moneris_payment](https://img.shields.io/pub/v/moneris_payment?label=moneris_payment&style=flat-square)](https://pub.dev/packages/moneris_payment)
-[![genericlistwithdate](https://img.shields.io/pub/v/genericlistwithdate?label=genericlistwithdate&style=flat-square)](https://pub.dev/packages/genericlistwithdate)
-[![customedropdownlistwithsearch](https://img.shields.io/pub/v/customedropdownlistwithsearch?label=customedropdownlistwithsearch&style=flat-square)](https://pub.dev/packages/customedropdownlistwithsearch)
-[![custom_scaffold](https://img.shields.io/pub/v/custom_scaffold?label=custom_scaffold&style=flat-square)](https://pub.dev/packages/custom_scaffold)
+#### 📦 Published Flutter Packages on Pub.dev
+<table>
+  <tr>
+    <td width="50%">
+      <b><a href="https://pub.dev/packages/moneris_payment">moneris_payment</a></b><br>
+      <i>PCI-compliant Moneris Checkout integration with tokenization & 3D-Secure.</i><br><br>
+      <a href="https://pub.dev/packages/moneris_payment"><img src="https://img.shields.io/pub/v/moneris_payment?label=pub.dev&style=flat-square&color=0175C2" alt="moneris_payment version"></a>
+      <a href="https://pub.dev/packages/moneris_payment"><img src="https://img.shields.io/pub/likes/moneris_payment?style=flat-square&color=2E7D32" alt="moneris_payment likes"></a>
+    </td>
+    <td width="50%">
+      <b><a href="https://pub.dev/packages/genericlistwithdate">genericlistwithdate</a></b><br>
+      <i>Sticky/grouped date-based list view (perfect for chat feeds, logs & timelines).</i><br><br>
+      <a href="https://pub.dev/packages/genericlistwithdate"><img src="https://img.shields.io/pub/v/genericlistwithdate?label=pub.dev&style=flat-square&color=0175C2" alt="genericlistwithdate version"></a>
+      <a href="https://pub.dev/packages/genericlistwithdate"><img src="https://img.shields.io/pub/likes/genericlistwithdate?style=flat-square&color=2E7D32" alt="genericlistwithdate likes"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <b><a href="https://pub.dev/packages/customedropdownlistwithsearch">customedropdownlistwithsearch</a></b><br>
+      <i>Highly customizable searchable dropdown picker with smooth filtering.</i><br><br>
+      <a href="https://pub.dev/packages/customedropdownlistwithsearch"><img src="https://img.shields.io/pub/v/customedropdownlistwithsearch?label=pub.dev&style=flat-square&color=0175C2" alt="customedropdownlistwithsearch version"></a>
+      <a href="https://pub.dev/packages/customedropdownlistwithsearch"><img src="https://img.shields.io/pub/likes/customedropdownlistwithsearch?style=flat-square&color=2E7D32" alt="customedropdownlistwithsearch likes"></a>
+    </td>
+    <td width="50%">
+      <b><a href="https://pub.dev/packages/custom_scaffold">custom_scaffold</a></b><br>
+      <i>Enhanced Scaffold with unified loading, error handling & state layers.</i><br><br>
+      <a href="https://pub.dev/packages/custom_scaffold"><img src="https://img.shields.io/pub/v/custom_scaffold?label=pub.dev&style=flat-square&color=0175C2" alt="custom_scaffold version"></a>
+      <a href="https://pub.dev/packages/custom_scaffold"><img src="https://img.shields.io/pub/likes/custom_scaffold?style=flat-square&color=2E7D32" alt="custom_scaffold likes"></a>
+    </td>
+  </tr>
+</table>
 
-- **moneris_payment** - PCI-compliant Moneris Checkout integration with tokenization & 3D-Secure
-- **genericlistwithdate** - Date-grouped list view (perfect for chat apps & logs)
-- **customedropdownlistwithsearch** - Searchable dropdown with custom styling
-- **custom_scaffold** - Enhanced Scaffold with extended customization
+<br>
 
-#### 🔧 Pull Requests Merged
-✅ **[jitsi-meet-flutter-sdk#161](https://github.com/jitsi/jitsi-meet-flutter-sdk/pull/161)** - Fixed NullPointerException crash & Android Media3 build conflicts  
-✅ **[liquid_glass_widgets#3](https://github.com/sdegenaar/liquid_glass_widgets/pull/3)** - Added liquid glass masking effect & empty label support
+#### 🔧 Key Open Source Pull Requests
+- 🐧 **[ubuntu/app-center#2120](https://github.com/ubuntu/app-center/pull/2120)** — Improved the **About page** layout, typography, and readability for Ubuntu App Center.
+- 📱 **[jitsi/jitsi-meet-flutter-sdk#161](https://github.com/jitsi/jitsi-meet-flutter-sdk/pull/161)** — Fixed critical `NullPointerException` crash & resolved Android Media3 build conflicts.
+- 🎨 **[sdegenaar/liquid_glass_widgets#3](https://github.com/sdegenaar/liquid_glass_widgets/pull/3)** — Implemented liquid glass shader mask effect & empty label state handling.
 
-> 💡 *"Building tools that help others build better apps"*
+> 💡 *"Building tools and contributing to the open-source ecosystem that millions rely on"*
 
 ---
 
 ### 📈 LeetCode Profile
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/earbaj?theme=light&font=Karma&ext=contest" alt="earbaj LeetCode Stats" />
-</p>
+<div align="center">
+  <a href="https://leetcode.com/earbaj" target="_blank">
+    <img src="https://leetcard.jacoblin.cool/earbaj?theme=dark&font=Karma&ext=contest" width="95%" alt="Earbaj LeetCode Stats" />
+  </a>
+</div>
 
 ---
-
-<!-- Extra animation touch -->
-<p align="center">
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="500">
-</p>
