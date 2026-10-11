@@ -122,12 +122,9 @@ data object Earbaj : MobileDeveloper {
 ---
 
 ### 📊 GitHub Stats
-<div align="center">
-  <!-- 90-Day Contribution Graph -->
-  <a href="https://github.com/earbaj">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=earbaj&theme=react-dark&bg_color=0d1117&color=58a6ff&line=3ddc84&point=ffffff&hide_border=true&area=true&custom_title=Contribution%20Graph%20(Last%2090%20Days)&height=300" width="95%" alt="Activity Graph" />
-  </a>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation" />
+</p>
 <br>
 <details open>
   <summary style="cursor: pointer;">
